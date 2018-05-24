@@ -1,0 +1,47 @@
+{
+	"episodes":[
+		{
+			"title":"episode 13",
+			"mp3Url":"https://drive.google.com/uc?export=download&id=1P-2KVcePAb_5rSLQdX0aYLFPGdG78gb8",
+			"srtE":"subtitles/e13.srt",
+			"srtK":"subtitles/e13k.srt",
+			"image":"images/"
+		},
+		{
+			"title":"episode 14",
+			"mp3Url":"https://drive.google.com/uc?export=download&id=1jf8ZVdFQFsZt1-LUixEK0VlJAgi_bMX7",
+			"srtE":"subtitles/e14.srt",
+			"srtK":"subtitles/e14k.srt",
+			"image":"images/"
+		},
+		{
+			"title":"episode 15",
+			"mp3Url":"https://drive.google.com/uc?export=download&id=1NBlf5cB3_HoNXmyQsK9o261g4--X-0bL",
+			"srtE":"subtitles/e15.srt",
+			"srtK":"subtitles/e15k.srt",
+			"image":"images/"
+		},
+		{
+			"title":"episode 16",
+			"mp3Url":"https://drive.google.com/uc?export=download&id=10WnmwhZhNvvvJFgnysori7d-c6Rb-IML",
+			"srtE":"subtitles/e16.srt",
+			"srtK":"subtitles/e16k.srt",
+			"image":"images/"
+		},
+		{
+			"title":"episode 17",
+			"mp3Url":"https://drive.google.com/uc?export=download&id=1rD1iJWsHowLU1RAC0b79E4Arov-OMcy6",
+			"srtE":"subtitles/e17.srt",
+			"srtK":"subtitles/e17k.srt",
+			"image":"images/"
+		},
+		{
+			"title":"episode 18",
+			"mp3Url":"https://drive.google.com/uc?export=download&id=1op9YooQy_roH7xH3BZrN_j62WKdHvrYD",
+			"srtE":"subtitles/e18.srt",
+			"srtK":"subtitles/e18k.srt",
+			"image":"images/"
+		}
+	
+	]
+}
