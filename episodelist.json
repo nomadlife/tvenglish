@@ -41,6 +41,27 @@
 			"srtE":"subtitles/e18.srt",
 			"srtK":"subtitles/e18k.srt",
 			"image":"images/"
+		},
+		{
+			"title":"episode 19",
+			"mp3Url":"https://drive.google.com/uc?export=download&id=14uWNGElFbn3n5BLvnPxcN5vIXygf4_ja",
+			"srtE":"subtitles/e19.srt",
+			"srtK":"subtitles/e19k.srt",
+			"image":"images/"
+		},
+		{
+			"title":"episode 20",
+			"mp3Url":"https://drive.google.com/uc?export=download&id=13VULFCQOc7skQUfFtlXGSOCcMhEERKZw",
+			"srtE":"subtitles/e20.srt",
+			"srtK":"subtitles/e20k.srt",
+			"image":"images/"
+		},
+		{
+			"title":"episode 21",
+			"mp3Url":"https://drive.google.com/uc?export=download&id=1yUgNqltmDxpBOmyTyeZaujDaePmLBOjn",
+			"srtE":"subtitles/e21.srt",
+			"srtK":"subtitles/e21k.srt",
+			"image":"images/"
 		}
 	
 	]
