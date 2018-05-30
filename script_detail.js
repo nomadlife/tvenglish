@@ -79,7 +79,7 @@
 
   //var qs = new Querystring();
   //var index = qs.get("idx");
-  var index = 4;
+  var index = 0;
   console.log(index)
   fetch('episodelist.json')
 	.then(function(response) {
