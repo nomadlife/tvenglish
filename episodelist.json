@@ -1,20 +1,23 @@
 {
 	"episodes":[
 		{
-			"title":"episode 13",
+			"ep_num":"13",
+			"title":"",
 			"mp3Url":"https://drive.google.com/uc?export=download&id=1P-2KVcePAb_5rSLQdX0aYLFPGdG78gb8",
 			"srtE":"subtitles/e13.srt",
 			"srtK":"subtitles/e13k.srt",
 			"image":"images/"
 		},
 		{
-			"title":"episode 14",
+			"ep_num":"14",
+			"title":"",
 			"mp3Url":"https://drive.google.com/uc?export=download&id=1jf8ZVdFQFsZt1-LUixEK0VlJAgi_bMX7",
 			"srtE":"subtitles/e14.srt",
 			"srtK":"subtitles/e14k.srt",
 			"image":"images/"
 		},
 		{
+			"ep_num":"15",
 			"title":"episode 15",
 			"mp3Url":"https://drive.google.com/uc?export=download&id=1NBlf5cB3_HoNXmyQsK9o261g4--X-0bL",
 			"srtE":"subtitles/e15.srt",
@@ -22,42 +25,48 @@
 			"image":"images/"
 		},
 		{
-			"title":"episode 16",
+			"ep_num":"16",
+			"title":"",
 			"mp3Url":"https://drive.google.com/uc?export=download&id=10WnmwhZhNvvvJFgnysori7d-c6Rb-IML",
 			"srtE":"subtitles/e16.srt",
 			"srtK":"subtitles/e16k.srt",
 			"image":"images/"
 		},
 		{
-			"title":"episode 17",
+			"ep_num":"17",
+			"title":"",
 			"mp3Url":"https://drive.google.com/uc?export=download&id=1rD1iJWsHowLU1RAC0b79E4Arov-OMcy6",
 			"srtE":"subtitles/e17.srt",
 			"srtK":"subtitles/e17k.srt",
 			"image":"images/"
 		},
 		{
-			"title":"episode 18",
+			"ep_num":"18",
+			"title":"",
 			"mp3Url":"https://drive.google.com/uc?export=download&id=1op9YooQy_roH7xH3BZrN_j62WKdHvrYD",
 			"srtE":"subtitles/e18.srt",
 			"srtK":"subtitles/e18k.srt",
 			"image":"images/"
 		},
 		{
-			"title":"episode 19",
+			"ep_num":"19",
+			"title":"",
 			"mp3Url":"https://drive.google.com/uc?export=download&id=14uWNGElFbn3n5BLvnPxcN5vIXygf4_ja",
 			"srtE":"subtitles/e19.srt",
 			"srtK":"subtitles/e19k.srt",
 			"image":"images/"
 		},
 		{
-			"title":"episode 20",
+			"ep_num":"20",
+			"title":"",
 			"mp3Url":"https://drive.google.com/uc?export=download&id=13VULFCQOc7skQUfFtlXGSOCcMhEERKZw",
 			"srtE":"subtitles/e20.srt",
 			"srtK":"subtitles/e20k.srt",
 			"image":"images/"
 		},
 		{
-			"title":"episode 21",
+			"ep_num":"21",
+			"title":"",
 			"mp3Url":"https://drive.google.com/uc?export=download&id=1yUgNqltmDxpBOmyTyeZaujDaePmLBOjn",
 			"srtE":"subtitles/e21.srt",
 			"srtK":"subtitles/e21k.srt",

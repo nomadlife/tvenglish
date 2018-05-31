@@ -51,7 +51,6 @@
   function attachSrt(fileLoc,target){
 	var xhr = new XMLHttpRequest();
 	xhr.onload = function(){
-		console.log('test')
 		var string = srt2vtt(xhr.responseText)
 		var vttBlob = new Blob([string], {type: 'text/plain'});
 		var fileURL = URL.createObjectURL(vttBlob)
@@ -61,7 +60,7 @@
 
 	xhr.open("GET",fileLoc);
 	xhr.send();
-	showAll()
+
   }
 
   
@@ -77,23 +76,25 @@
   var inputNode = document.querySelectorAll('[target]')
   var showAllButton = document.querySelector('#show-all')
 
-  //var qs = new Querystring();
-  //var index = qs.get("idx");
-  var index = 0;
-  console.log(index)
+
+  var index = window.location.href.match(/idx=([^&]+)/)[1]
+
+  
   fetch('episodelist.json')
 	.then(function(response) {
 	return response.json();
 	})
 	.then(function(myJson) {
 		var episode = myJson.episodes;
-		console.log(episode[index])
-		var output = '<source src="'+episode[index].mp3Url+'">';
-		//document.getElementById('mp3source').innerHTML = output;
-		document.getElementById('title').innerHTML = episode[index].title;
+
+		document.getElementById('title').innerHTML = 'episode '+episode[index].ep_num;
 	    videoNode.src = episode[index].mp3Url;
-		attachSrt(episode[index].srtE,'#track1') 
-		attachSrt(episode[index].srtK,'#track2')
+	    //videoNode.src = 'http://localhost:8000/e'+episode[index].ep_num+'.mp3'
+	    //videoNode.src = "http://localhost:8000/e14.mp3";
+		attachSrt(episode[index].srtE,'#track1');
+		attachSrt(episode[index].srtK,'#track2');
+		showAll();
+		
 	});
 	
 
@@ -102,6 +103,5 @@
   
   inputNode.forEach(inputNode=>inputNode.addEventListener('change', attachFile, false))
   showAllButton.addEventListener('click', showAll);
+  showAll()
   
- 
-

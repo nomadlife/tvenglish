@@ -18,10 +18,10 @@ fetch('episodelist.json')
 	   var output = '';
 		for(var i=0;i<episode.length;i++){
 			output += 
-			'<div class="thumbnail"><a href="detail.html?idx='+i+'"><img src="' + episode[i].image + '"><div class="caption"><h2>'+ episode[i].title +'</h2></div></a></div>';
+			'<div class="thumbnail"><a href="detail.html?idx='+i+'"><img src="' + episode[i].image + '"><div class="caption"><h2> Episode '+ episode[i].ep_num +'</h2></div></a></div>';
 			}
 		document.getElementById('episodes').innerHTML = output;
 	});
 
 inputs.forEach(input => input.addEventListener('change',handleUpdate))
-inputs.forEach(input => input.addEventListener('mousemove',handleUpdate))
+//inputs.forEach(input => input.addEventListener('mousemove',handleUpdate))
